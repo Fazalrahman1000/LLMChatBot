@@ -1,0 +1,7 @@
+streamlit
+groq
+PyPDF2
+sqlalchemy
+sentence-transformers
+faiss-cpu
+numpy
