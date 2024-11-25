@@ -123,8 +123,8 @@ if not st.session_state.embeddings_added:
 
 # Main chatbot interface
 if st.session_state.authenticated:
-    st.title("📄 Document Q&A Bot")
-    st.write("Ask any question about the documents in the `uploads` folder!")
+    st.title("📄 MIDP Bot")
+    st.write("Ministry of Industry and Development!")
 
     for message in st.session_state.chat_history:
         with st.chat_message(message["role"]):
@@ -165,4 +165,4 @@ if st.session_state.authenticated:
         except Exception as e:
             st.error(f"Error generating response: {str(e)}")
 else:
-    st.info("Please log in to access the chatbot.")
+    st.info("Login Here to access MIDPBot.")
